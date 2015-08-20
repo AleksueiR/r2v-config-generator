@@ -1,0 +1,31 @@
+{
+    "name": "r2v-config-generator",
+    "description": "get tool",
+    "version": "0.0.0",
+    "homepage": "",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "angular-mocks": "^1.4.3",
+        "sinon": "http://sinonjs.org/releases/sinon-1.15.4.js",
+        "bardjs": "^0.1.4"
+    },
+    "dependencies": {
+        "angular-schema-form": "^0.8.6",
+
+        "angular-animate": "^1.4.1",
+        "angular-aria": "^1.4.1",
+        "angular-route": "~1.4.1",
+        "angular-ui-router": "^0.2.15",
+        "angular-translate": "^2.7.2",
+        "angular-translate-loader-static-files": "^2.7.2",
+        "angular-ui-ace": "^0.2.3",
+        "angular-ui-sortable": "^0.13.4",
+
+        "ace-builds": "^1.2.0",
+
+        "bootstrap": "^3.3.5",
+
+        "html5-boilerplate": "~5.2.0"
+    }
+}

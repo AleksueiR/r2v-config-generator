@@ -1,0 +1,53 @@
+﻿<div data-ng-controller="ShellController as shell">
+    <!--<div ng-hide="!shell.isLoading" class="loading-splash" layout layout-align="center center">
+        <span>Loading</span>
+    </div>
+    <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center">I'm {{shell.config.title}} and {{ 'page.title' | translate }}</md-whiteframe>-->
+
+    <div class="container-fluid">
+
+        <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <h2>Form</h2>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Schema</h2>
+                </div>
+            </div>
+
+        <div class="row">
+
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-5" ng-include="'app/form/form.html'"></div>
+
+            <div class="col-lg-5" ng-include="'app/editor/editor.html'"></div>
+
+            <div class="col-lg-1"></div>
+
+        </div>
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-11">
+                    <h2>Resulting configuration</h2>
+                </div>
+            </div>
+
+        <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-10">
+                <pre>{{ shell.prettyModel() }}</pre>
+            </div>
+
+            <div class="col-lg-1"></div>
+
+        </div>
+    </div>
+
+
+
+
+</div>

@@ -1,0 +1,12 @@
+﻿body {
+    font: 100% Helvetica, sans-serif;
+    color: #132;
+}
+
+.form-group {
+    position: relative;
+
+    .form-control-feedback {
+        top: 16px;
+    }
+}

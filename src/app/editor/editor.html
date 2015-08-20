@@ -1,0 +1,8 @@
+<div ng-controller="EditorController as vm">
+
+    <div style="height: 400px; font-size: 16px;"
+        ng-class="{ red: !vm.schemaIsValid }"
+        ui-ace="{ onLoad : vm.aceOnLoad, onChange: vm.aceOnChange, theme: 'monokai', mode:'json'}" ng-model="vm.schemaString" class="form-control form">
+    </div>
+
+</div>
